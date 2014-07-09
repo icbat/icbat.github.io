@@ -1,3 +1,7 @@
 <header>
-{{site.categories}}
+{% for category in site.categories %}
+    <li>
+      {{category}}
+    </li>
+  {% endfor %}
 </header>
