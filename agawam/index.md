@@ -3,4 +3,4 @@ layout:  default
 title:  a Game a Week a Month
 ---
 
-I'm in {{page.category}}
+I'm in {{page.categories}}
