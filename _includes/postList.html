@@ -1,5 +1,8 @@
-<ul>
-  {% for post in site.posts %}
-    <li><span class="postCategory">{{ page.categories }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div class="postSummary">
+	<span class="postCategory">{{ post.categories }}</span>
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	{{post.excerpt}}
+	{{post.tags}}	
+</div>
+{% endfor %}
