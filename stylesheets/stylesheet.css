@@ -3,7 +3,8 @@ body, header ul {margin: 0; padding: 0;}
 header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
 header, footer, .content {padding: 10;}
-a, a:visited, h2 {color: #7cdaee; text-decoration: none}
+a, a:visited {color: #7cdaee; text-decoration: none}
+h2 {color: #4EADC2}
 .content a, .content a:visited, h3 {color: #ff850a}
 .content {background-color:#fff; }
 .content{color: #000}
