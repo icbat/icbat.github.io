@@ -1,3 +1,4 @@
 header ul li, header ul {display: inline}
 header ul li a {font-size: 1.3em}
-header, footer {margin:0; padding: 10; background-color: #333;}
+header, footer {margin:0; padding: 10; background-color: #333; color: #ececec}
+a, a:visited {color: #22e}
