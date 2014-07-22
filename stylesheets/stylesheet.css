@@ -1,6 +1,8 @@
 body {margin: 0; padding: 0; background-color: #333; color: #ececec}
 header ul li, header ul {display: inline}
-header ul li a {font-size: 1.3em}
-header, footer, content {padding: 10;}
-a, a:visited {color: #7cdaee}
-content {background-color:#fff; color: #000}
+header ul li {font-size: 1.3em}
+header, footer, .content {padding: 10;}
+a, a:visited {color: #7cdaee; text-decoration: none}
+.content a, .content a:visited {color: #128ea2}
+.content {background-color:#fff; }
+.content, .timestamp {color: #000}
