@@ -1,5 +1,5 @@
 ---
-layout: devlogPost	
+layout: default	
 title: Recap of how the first alpha test went
 ---
 

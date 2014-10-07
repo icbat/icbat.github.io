@@ -1,5 +1,5 @@
 ---
-layout: devlogPost	
+layout: default	
 title: New static content
 ---
 

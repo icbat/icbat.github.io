@@ -1,5 +1,5 @@
 ---
-layout: devlogPost
+layout: default
 title: Closing in on an alpha
 ---
 
