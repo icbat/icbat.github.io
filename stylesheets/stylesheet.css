@@ -5,6 +5,7 @@ header ul li {font-size: 1.3em}
 header, footer, .content {padding: 10;}
 a, a:visited {color: #7cdaee; text-decoration: none}
 h2 {color: #4EADC2}
+code {background-color: #ccc; border: 1px solid #aaa; padding:10px}
 .content a, .content a:visited, h3 {color: #ff850a}
 .content {background-color:#fff; }
 .content{color: #000}
