@@ -32,8 +32,9 @@ All this does is instruct JUnit to run with the special [Parameterized runner](h
 @Parameters(name = "{index} : {0} squares to {1}")
 public static Iterable<Object[]> getData() {
 	return Arrays.asList(new Object[][]{
+		{-2,4},
 		{0,0},
-		{1,2},
+		{1,2},			
 		{2,4},
 		{3,9},
 		{4,16},
@@ -51,7 +52,7 @@ The name argument to the `@Parameters` annotation highlights a few of the placeh
 
 ## Pass it to the instance
 
-
+The Parameterized runner will make an instance of your class, and try to pass its knowledge on in one of two ways. You can use a constructor with the right number of arguments, like so: 
 
 {% highlight java %}
 public SquaresTest(int input, int expectedOutput) {
@@ -60,7 +61,7 @@ public SquaresTest(int input, int expectedOutput) {
 }
 {% endhighlight %}
 
-You can also use a more explicity if simplified syntax:
+You can also use a more explicit, if simplified, syntax:
 
 {% highlight java %}
 @Parameter(0)
@@ -69,7 +70,7 @@ public int input;
 public int expectedOutput;
 {% endhighlight %}
 
-Annotating the fields is more concise and clear, but doesn't allow you to process the inputs in anyway.  
+Annotating the fields is more concise and clear, but doesn't allow you to process the inputs in anyway like the constructor approach.
 
 ## Test!
 
@@ -90,13 +91,14 @@ public class SquaresTest {
 	@Parameters
 	public static Iterable<Object[]> getData() {
 		return Arrays.asList(new Object[][]{
+			{-2,4},
 			{0,0},
-			{1,1},
-			{2,1},
-			{3,2},
-			{4,3},
-			{5,5},
-			{6,8}
+			{1,2},			
+			{2,4},
+			{3,9},
+			{4,16},
+			{5,25},
+			{6,36}
 		});
 	}
 
@@ -113,7 +115,7 @@ A few extra things I've learned, with sources provided where possible:
 
 ### Exact arguments only!
 
-I thought I could be cute an make optional parameters using the `Object...` structure, as in:
+I thought I could be cute and make optional parameters using the `Object...` structure, as in:
 
 {% highlight java %}
 // Constructor
