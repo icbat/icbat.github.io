@@ -6,7 +6,7 @@ header ul li {font-size: 1.3em}
 header, footer, .content, header ul li, .highlight {padding: 10;}
 a, a:visited {color: #3498db; text-decoration: none}
 h2 {color: #3498db}
-.content a, .content a:visited, h3 {color: #e67e22}
+.content a, .content a:visited, h3 {color: #16a085}
 .content {background-color:#fff; }
 .content{color: #000}
 .postHeader {font-weight: bold; }
