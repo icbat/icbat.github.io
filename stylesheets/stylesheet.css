@@ -5,13 +5,13 @@ header ul li {font-size: 1.3em}
 header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none}
 
-header li {
+header li, header li a:hover {
 -moz-border-radius: 20px;
 border-radius: 20px;
 }
 
 header li a:hover {
-	background-color:#f00;
+	background-color:#f00;	
 }
 
 header li.homelink {
