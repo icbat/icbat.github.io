@@ -5,7 +5,7 @@ header ul li {font-size: 1.3em}
 header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none}
 
-header li, header li a:hover {
+header li, header li:hover {
 -moz-border-radius: 20px;
 border-radius: 20px;
 }
