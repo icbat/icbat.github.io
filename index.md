@@ -1,5 +1,5 @@
 ---
 layout:  default
-title:
+title: Person
 ---
 Aboot me
