@@ -1,4 +1,4 @@
-body {background-color: #fff; color: #000}
+body {background-color: #486BBA; color: #000}
 body, header ul {margin: 0; padding: 0}
 header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
@@ -11,21 +11,17 @@ border-radius: 15px;
 }
 
 header li:hover {
-	background-color:#486BBA;	
+	background-color:#98AFE4;	
 }
 
 header li.homelink {
 	background-color:#43D543;
 }
 
-.content {min-height: 400px}
+.content {background-color: #fff; min-height: 400px}
 .postHeader {font-weight: bold}
 .timestamp {color: #ececec}
 
 h1 {
-	color: #6A89CF;
-}
-
-header, footer {
-	background-color: #486BBA;
+	color: #FC8A2C;
 }
