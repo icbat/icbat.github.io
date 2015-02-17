@@ -2,26 +2,16 @@ body {background-color: #486BBA; color: #000}
 body, header ul {margin: 0; padding: 0}
 header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
-header, footer, .content, header ul li, .highlight {padding: 10; font-family: 'Indie Flower', cursive;}
-a, a:visited {text-decoration: none; color: #FF9F50;}
-
-header li {
--moz-border-radius: 15px;
-border-radius: 15px;
+header, footer, .content, header ul li, .highlight {padding: 10}
+a, a:visited {text-decoration: none; color: #43D543;}
+header, footer {font-family: 'Indie Flower', cursive; color:#fff;}
+header li a:hover {
+	background-color:#ececec;	
 }
 
-header li:hover {
-	background-color:#98AFE4;	
+h1, h2, h3 {
+	color: #08A908;
 }
-
-header li.homelink {
-	background-color:#43D543;
-}
-
 .content {background-color: #fff; min-height: 400px; font-family: 'Open Sans', sans-serif;}
 .postHeader {font-weight: bold}
-.timestamp {color: #ececec}
-
-h1 {
-	color: #FC8A2C;
-}
+.timestamp {color: #98AFE4}
