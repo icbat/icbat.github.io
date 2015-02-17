@@ -1,5 +1,5 @@
 ---
 layout:  default
-title:  About icbat
+title:
 ---
 Aboot me

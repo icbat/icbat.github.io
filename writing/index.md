@@ -3,7 +3,7 @@ layout:  default
 title:  Writing
 ---
 {% for post in site.posts %}
-{% if post.categories contains 'dev' %}	
+{% if post.categories contains 'writing' %}	
 <div class="postHeader">
 {{ post.date | date: "%Y-%m-%d" }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 </div>
