@@ -6,10 +6,16 @@ header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none}
 
 header li {
-width:200%;
-background-color:#f00;
 -moz-border-radius: 20px;
 border-radius: 20px;
+}
+
+header li a:hover {
+	background-color:#f00;
+}
+
+header li.homelink {
+	background-color:#f00;
 }
 
 .content {min-height: 400px}
