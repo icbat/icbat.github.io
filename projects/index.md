@@ -8,6 +8,7 @@ Things I've been working on:
 {% if post.categories contains 'projects' %}	
 <div class="postHeader">
 <a href="{{post.link}}">{{ post.title }}</a>
+<img src="{{site.url}}/img/projects/{{post.image}}" />
 </div>
 {{post.excerpt}}
 <a href="{{site.url}}/{{post.url}}">Link to post-mortem</a>
