@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Home
-
+layout:  default
+title:  About icbat
 ---
-
-{% include postList.html %}
+Aboot me
