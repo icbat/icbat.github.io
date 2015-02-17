@@ -2,7 +2,7 @@ body {background-color: #486BBA; color: #000}
 body, header ul {margin: 0; padding: 0}
 header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
-header, footer, .content, header ul li, .highlight {padding: 10}
+header, footer, .content, header ul li, .highlight {padding: 10; font-family: 'Indie Flower', cursive;}
 a, a:visited {text-decoration: none; color: #FF9F50;}
 
 header li {
@@ -18,7 +18,7 @@ header li.homelink {
 	background-color:#43D543;
 }
 
-.content {background-color: #fff; min-height: 400px}
+.content {background-color: #fff; min-height: 400px; font-family: 'Open Sans', sans-serif;}
 .postHeader {font-weight: bold}
 .timestamp {color: #ececec}
 
