@@ -4,7 +4,7 @@ header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
 header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none; color: #43D543;}
-header, footer {font-family: 'Indie Flower', cursive; color:#fff;}
+header, footer, li a {font-family: 'Indie Flower', cursive; color:#fff;}
 header li a:hover {
 	color:#ececec;	
 }
