@@ -10,7 +10,7 @@ header li, header li:hover {
 border-radius: 20px;
 }
 
-header li a:hover {
+header li:hover {
 	background-color:#f00;	
 }
 
