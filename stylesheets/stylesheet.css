@@ -6,7 +6,7 @@ header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none; color: #43D543;}
 header, footer {font-family: 'Indie Flower', cursive; color:#fff;}
 header li a:hover {
-	background-color:#ececec;	
+	color:#ececec;	
 }
 
 h1, h2, h3 {
