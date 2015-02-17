@@ -4,6 +4,15 @@ header ul li, header ul {display: inline}
 header ul li {font-size: 1.3em}
 header, footer, .content, header ul li, .highlight {padding: 10}
 a, a:visited {text-decoration: none}
+
+a:hover {
+background-color:#f00;
+height: 5em;
+width: 12em;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+}
+
 .content {min-height: 400px}
 .postHeader {font-weight: bold}
 .timestamp {color: #ececec}
