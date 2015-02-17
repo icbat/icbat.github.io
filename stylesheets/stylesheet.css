@@ -15,9 +15,13 @@ header li:hover {
 }
 
 header li.homelink {
-	background-color:#FF9F50;
+	background-color:#43D543;
 }
 
 .content {min-height: 400px}
 .postHeader {font-weight: bold}
 .timestamp {color: #ececec}
+
+h1 {
+	color: #6A89CF;
+}
