@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Itch Roulette
 link: https://itch-roulette.herokuapp.com/
 ---
