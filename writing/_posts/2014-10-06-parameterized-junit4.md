@@ -17,12 +17,7 @@ But here's a breakdown on how to actually implement this strategy.
 
 At the top of this class you'll need `@RunWith` annotation, like so:
 
-{% highlight java %}
-@RunWith(Parameterized.class)
-public class SquaresTest {
-	// ....
-}
-{% endhighlight %}
+{% gist icbat/6babaf32f4a634633dba %}
 
 All this does is instruct JUnit to run with the special [Parameterized runner](http://junit.org/apidocs/org/junit/runners/Parameterized.html). This will handle piping data to each of the test instances.
 
@@ -40,21 +35,11 @@ The name argument to the `@Parameters` annotation highlights a few of the placeh
 
 The Parameterized runner will make an instance of your class, and try to pass its knowledge on in one of two ways. You can use a constructor with the right number of arguments, like so: 
 
-{% highlight java %}
-public SquaresTest(int input, int expectedOutput) {
-	this.input = input;
-	this.expectedOutput = expectedOutput;
-}
-{% endhighlight %}
+{% gist icbat/03111d04e95806054d81 %}
 
 You can also use a more explicit, if simplified, syntax:
 
-{% highlight java %}
-@Parameter(0)
-public int input;
-@Parameter(1)
-public int expectedOutput;
-{% endhighlight %}
+{% icbat/0595b503174f5462733f %}
 
 Annotating the fields is more concise and clear, but doesn't allow you to process the inputs in anyway like the constructor approach.
 
