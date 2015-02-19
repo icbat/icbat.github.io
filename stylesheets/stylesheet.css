@@ -12,6 +12,6 @@ header li a:hover {
 h1, h2, h3 {
 	color: #08A908;
 }
-.content {background-color: #fff; min-height: 400px; font-family: 'Open Sans', sans-serif;}
+.content {background-color: #fff; padding-bottom: 400px; font-family: 'Open Sans', sans-serif;}
 .postHeader {font-weight: bold}
 .timestamp {color: #98AFE4}
