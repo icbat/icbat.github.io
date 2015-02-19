@@ -39,7 +39,7 @@ The Parameterized runner will make an instance of your class, and try to pass it
 
 You can also use a more explicit, if simplified, syntax:
 
-{% icbat/0595b503174f5462733f %}
+{% gist icbat/0595b503174f5462733f %}
 
 Annotating the fields is more concise and clear, but doesn't allow you to process the inputs in anyway like the constructor approach.
 
