@@ -28,21 +28,7 @@ All this does is instruct JUnit to run with the special [Parameterized runner](h
 
 ## Get the data
 
-{% highlight java %}
-@Parameters(name = "{index} : {0} squares to {1}")
-public static Iterable<Object[]> getData() {
-	return Arrays.asList(new Object[][]{
-		{-2,4},
-		{0,0},
-		{1,2},			
-		{2,4},
-		{3,9},
-		{4,16},
-		{5,25},
-		{6,36}
-	});
-}
-{% endhighlight %}
+{% gist icbat/c59e8cce2e1492ccd459 %}
 
 There's a few key points here. You'll need that Annotation, you'll also need to make this method `static` and ensure it returns a `Iterable<Object[]>`. That's really where the constraints end, though. Feel free to read this in from a file, etc, as long as it can be done statically.
 
@@ -78,36 +64,7 @@ Run any test you want! You've got data in your fields. It's worth noting that ea
 
 ## Everything put together
 
-{% highlight java %}
-
-@RunWith(Parameterized.class)
-public class SquaresTest {
-
-	@Parameter(0)
-	public int input;
-	@Parameter(1)
-	public int expectedOutput;
-
-	@Parameters
-	public static Iterable<Object[]> getData() {
-		return Arrays.asList(new Object[][]{
-			{-2,4},
-			{0,0},
-			{1,2},			
-			{2,4},
-			{3,9},
-			{4,16},
-			{5,25},
-			{6,36}
-		});
-	}
-
-	@Test
-	public void testCase() {
-		assertEquals("The math didn't check out...", expectedOutput, input * input);
-	}
-}
-{% endhighlight %}
+{% gist icbat/9788fec45c29f1fde15c %}
 
 ## Some extras
 
@@ -117,13 +74,7 @@ A few extra things I've learned, with sources provided where possible:
 
 I thought I could be cute and make optional parameters using the `Object...` structure, as in:
 
-{% highlight java %}
-// Constructor
-public MyArbitraryAdditionTest(Integer a, Integer... b) {
-	this.a = a;
-	this.b = b; // Is an array of Integers
-}
-{% endhighlight %}
+{% gist icbat/b68a9e71ad75607095d9 %}
 
 Alas, you'll get an exception here. Probably for the best.
 
@@ -141,15 +92,4 @@ One problem with the `@Parameters(name = "...")` bit above is that it really onl
 
 A cute trick to alleviate this is to add a String parameter to each case whose only purpose is to be the name of the case. I've wound up with code more akin to:
 
-{% highlight java %}
-
-@Parameters(name = "{0}")
-public static Iterable<Object[]> getData() {
-	return Arrays.asList(new Object[][]{
-		{"Happy path", ...},
-		{"Negative Case - Throws error",...},
-	});
-}
-
-{% endhighlight %}
-
+{% gist icbat/e3cf3d1ca639e6249ab1 %}
