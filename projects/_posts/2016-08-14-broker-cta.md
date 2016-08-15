@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Broker: Call to Arms
+title: Broker - Call to Arms
 link: https://mods.curse.com/addons/wow/broker-call-arms
 image: broker-cta
 ---
