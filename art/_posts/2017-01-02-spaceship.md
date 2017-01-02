@@ -1,5 +1,5 @@
 ---
-layout: post
-title: spaceship
+layout: art
+title: Spaceship
 image: spaceship
 ---

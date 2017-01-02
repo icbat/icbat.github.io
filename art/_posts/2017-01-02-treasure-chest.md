@@ -1,5 +1,5 @@
 ---
-layout: post
-title: treasure-chest
+layout: art
+title: Treasure Chest
 image: treasure-chest
 ---
