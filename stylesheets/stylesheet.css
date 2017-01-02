@@ -8,6 +8,9 @@ header, footer, li a {font-family: 'Indie Flower', cursive; color:#fff;}
 header li a:hover {
 	color:#ececec;
 }
+footer {
+  min-height: 40px;
+}
 
 h1, h2, h3 {
 	color: #08A908;
