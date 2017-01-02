@@ -8,7 +8,7 @@ title:  Games
 <div class="postHeader">
 <a href="{{site.url}}/{{post.url}}">{{ post.title }}</a>
 </div>
-<img src="{{site.url}}/img/games/{{post.image}}.png" />
+<img src="{{site.url}}/games/img/{{post.image}}.png" />
 {{post.excerpt}}
 {% endif %}
 {% endfor %}
