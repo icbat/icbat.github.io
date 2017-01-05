@@ -8,7 +8,7 @@ title:  Art
 <div class="postHeader">
 <a href="{{site.url}}/{{post.url}}">{{ post.title }}</a>
 </div>
-<img src="{{site.url}}/{{post.categories}}/img/{{post.image}}.png" />
+<img class="thumbnail" src="{{site.url}}/{{post.categories}}/img/{{post.image}}.png" />
 {{post.excerpt}}
 {% endif %}
 {% endfor %}
