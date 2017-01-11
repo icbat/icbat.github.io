@@ -7,7 +7,8 @@ image: russian-judge-redemption
 
 Made for the STL Scatterjam 2016, help the Russian Judge redeem himself by judging interpretive dance!
 
-Russian Judge Redemption was made as part of a five person team, featuring:
+Russian Judge Redemption was made as part of a four person team, featuring:
+
  - Becky Asbury
  - Brandon Kassebaum
  - Peter Zylka

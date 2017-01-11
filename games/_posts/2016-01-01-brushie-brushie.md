@@ -8,6 +8,7 @@ image: brushie-brushie
 Made for the Global Game Jam 2016, this is a game about that most sinister of rituals:  brushing your teeth.
 
 Brushie Brushie was made as part of a five person team, featuring:
+
  - Becky Asbury
  - Mark Hall
  - Sam Jantz
