@@ -1,5 +1,5 @@
 ---
 layout: art
-title: Spaceship
+title: Pixel Dailies - Spaceship
 image: spaceship
 ---

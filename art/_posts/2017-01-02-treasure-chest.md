@@ -1,5 +1,5 @@
 ---
 layout: art
-title: Treasure Chest
+title: Pixel Dailies - Treasure Chest
 image: treasure-chest
 ---
